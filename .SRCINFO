@@ -1,7 +1,7 @@
 pkgbase = manifest-tool-bin
 	pkgdesc = Container image manifest tool for manifest list object creation/query
-	pkgver = 2.1.6
-	pkgrel = 2
+	pkgver = 2.1.7
+	pkgrel = 1
 	url = https://github.com/estesp/manifest-tool
 	arch = x86_64
 	license = Apache2
@@ -10,7 +10,7 @@ pkgbase = manifest-tool-bin
 	conflicts = manifest-tool
 	conflicts = manifest-tool-git
 	conflicts = manifest-tool-bin
-	source = https://github.com/estesp/manifest-tool/releases/download/v2.1.6/binaries-manifest-tool-2.1.6.tar.gz
-	sha256sums = 585b1e9a78912d99590cf769cfa9b42348a920453d06f37b42f07078c0abc0ad
+	source = https://github.com/estesp/manifest-tool/releases/download/v2.1.7/binaries-manifest-tool-2.1.7.tar.gz
+	sha256sums = b5c8b0fd6db2e7922ec4f350b35bf966c1a0f2cfceae2ad974bbe8d90f53fb64
 
 pkgname = manifest-tool-bin
