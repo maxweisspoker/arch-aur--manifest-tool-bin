@@ -2,7 +2,7 @@
 # Contributor:  Phil Estes <https://estesp.dev/#contact>
 
 pkgname=manifest-tool-bin
-pkgver=2.1.7
+pkgver=2.1.8
 pkgrel=1
 
 pkgdesc='Container image manifest tool for manifest list object creation/query'
@@ -13,7 +13,7 @@ depends=()
 provides=('manifest-tool' 'manifest-tool-bin')
 conflicts=('manifest-tool' 'manifest-tool-git' 'manifest-tool-bin')
 source=("https://github.com/estesp/manifest-tool/releases/download/v${pkgver}/binaries-manifest-tool-${pkgver}.tar.gz")
-sha256sums=('b5c8b0fd6db2e7922ec4f350b35bf966c1a0f2cfceae2ad974bbe8d90f53fb64')
+sha256sums=('a3c6906c71d1eb29f013516094ca07cea6d60e0a5acc71ba6b8299d5740bcd23')
 
 build () {
     tar -xzf "${srcdir}/binaries-manifest-tool-${pkgver}.tar.gz" -C "${srcdir}/"
